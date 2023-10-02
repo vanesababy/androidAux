@@ -22,7 +22,7 @@
     android:background="@color/white"
 
 
-    tools:context=".MainActivity">
+    tools:context=".register">
 
     <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -32,7 +32,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:gravity="center"
-        android:background="@drawable/loginimg"
+        android:background="@drawable/cuaderno"
         tools:context=".MainActivity">
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
@@ -50,7 +50,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Login"
+                    android:text="Registro"
                     android:id="@+id/loginText"
                     android:textSize="36sp"
                     android:textAlignment="center"
@@ -59,14 +59,38 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
-                    android:id="@+id/username"
+                    android:id="@+id/nombre1"
                     android:background="@drawable/custom_edittext"
                     android:layout_marginTop="40dp"
                     android:padding="8dp"
-                    android:hint="Username"
+                    android:hint="Nombre"
                     android:drawableLeft="@drawable/baseline_person_24"
                     android:textColor="@color/black"
                     android:drawablePadding="8dp"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/apellido1"
+                    android:background="@drawable/custom_edittext"
+                    android:layout_marginTop="40dp"
+                    android:padding="8dp"
+                    android:hint="Apellido"
+                    android:drawableLeft="@drawable/baseline_person_24"
+                    android:textColor="@color/black"
+                    android:drawablePadding="8dp"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/correo"
+                    android:background="@drawable/custom_edittext"
+                    android:layout_marginTop="40dp"
+                    android:padding="8dp"
+                    android:hint="Correo electronico"
+                    android:drawableLeft="@drawable/baseline_person_24"
+                    android:textColor="@color/black"
+                    android:drawablePadding="8dp"/>
+
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
@@ -75,27 +99,37 @@
                     android:layout_marginTop="20dp"
                     android:inputType="textPassword"
                     android:padding="8dp"
-                    android:hint="Password"
+                    android:hint="Contraseña"
                     android:drawableLeft="@drawable/baseline_lock_24"
                     android:textColor="@color/black"
                     android:drawablePadding="8dp"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/password2"
+                    android:background="@drawable/custom_edittext"
+                    android:layout_marginTop="20dp"
+                    android:inputType="textPassword"
+                    android:padding="8dp"
+                    android:hint="Confirmar contraseña"
+                    android:drawableLeft="@drawable/baseline_lock_24"
+                    android:textColor="@color/black"
+                    android:drawablePadding="8dp"/>
+
+
+
+
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
-                    android:text="Login"
+                    android:text="Registrarse"
                     android:id="@+id/loginButton"
                     android:textSize="18sp"
                     android:layout_marginTop="30dp"
                     android:backgroundTint="@color/lavender"
                     app:cornerRadius = "20dp"/>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="90dp"
-                    android:text="Ya tienes una cuenta? Registrate"
-                    android:textSize="18sp"
-                    android:layout_marginTop="20dp"
-                    android:id="@+id/direccionR"
-                    ></TextView>
+
 
 
             </LinearLayout>
@@ -105,4 +139,3 @@
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-                      
