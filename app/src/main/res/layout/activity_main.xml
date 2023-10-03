@@ -32,7 +32,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:gravity="center"
-        android:background="@drawable/loginimg"
+        android:background="@drawable/fondo_login"
         tools:context=".MainActivity">
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
@@ -94,7 +94,11 @@
                     android:text="Ya tienes una cuenta? Registrate"
                     android:textSize="18sp"
                     android:layout_marginTop="20dp"
-                    android:id="@+id/direccionR"
+                    android:id="@+id/textView"
+                    android:onClick="irASecondActivity"
+                    android:clickable="true"
+                    android:focusable="true"
+
                     ></TextView>
 
 
