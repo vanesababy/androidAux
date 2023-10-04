@@ -22,12 +22,9 @@
     android:background="@color/white"
 
 
-    tools:context=".MainActivity">
+    tools:context=".Bienvenida">
 
     <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -47,11 +44,13 @@
                 android:layout_gravity="center_horizontal"
                 android:padding="24dp"
                 android:background="@drawable/custom_edittext">
+
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Mis primeros aux"
-                    android:id="@+id/loginText"
+                    android:text="BIENVENIDO(A)"
+                    android:id="@+id/loginText0"
                     android:textSize="36sp"
                     android:textAlignment="center"
                     android:textStyle="bold"
@@ -60,55 +59,47 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Login"
-                    android:id="@+id/loginTextÞ"
+                    android:text="A Mis primeros"
+                    android:id="@+id/loginText1"
                     android:textSize="36sp"
                     android:textAlignment="center"
                     android:textStyle="bold"
                     android:textColor="@color/teal_700"
-                    android:layout_marginTop="20dp"  />
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:id="@+id/username"
-                    android:background="@drawable/custom_edittext"
-                    android:layout_marginTop="40dp"
-                    android:padding="8dp"
-                    android:hint="Username"
-                    android:drawableLeft="@drawable/baseline_person_24"
-                    android:textColor="@color/black"
-                    android:drawablePadding="8dp"/>
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:id="@+id/password"
-                    android:background="@drawable/custom_edittext"
                     android:layout_marginTop="20dp"
-                    android:inputType="textPassword"
-                    android:padding="8dp"
-                    android:hint="Password"
-                    android:drawableLeft="@drawable/baseline_lock_24"
-                    android:textColor="@color/black"
-                    android:drawablePadding="8dp"/>
-                <Button
+                    />
+                <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="60dp"
-                    android:text="Iniciar"
-                    android:id="@+id/loginButton"
-                    android:textSize="18sp"
-                    android:layout_marginTop="30dp"
-                    android:backgroundTint="@color/green"
-                    app:cornerRadius = "20dp"/>
+                    android:layout_height="wrap_content"
+                    android:text="Auxilitos"
+                    android:id="@+id/loginText"
+                    android:textSize="36sp"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/teal_700"
+                    android:layout_marginTop="20dp"
+                    />
+
+                <TextView
+                    android:id="@+id/username12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="120dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/teal_700"
+                    android:textSize="36sp"
+                    android:textStyle="bold" />
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="Ya tienes una cuenta? Registrate"
+                    android:text="Tu app confiable para tus niños"
                     android:textSize="18sp"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="60dp"
                     android:id="@+id/textView"
                     android:onClick="irASecondActivity"
                     android:clickable="true"
                     android:focusable="true"
+                    android:textAlignment="center"
 
                     ></TextView>
 
@@ -120,4 +111,3 @@
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-                      
