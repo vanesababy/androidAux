@@ -52,7 +52,7 @@
                     android:layout_height="wrap_content"
                     android:text="Registro"
                     android:textAlignment="center"
-                    android:textColor="@color/lavender"
+                    android:textColor="@color/green"
                     android:textSize="36sp"
                     android:textStyle="bold" />
 
@@ -60,7 +60,7 @@
                     android:id="@+id/nombre1"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
-                    android:layout_marginTop="40dp"
+                    android:layout_marginTop="20dp"
                     android:background="@drawable/custom_edittext"
                     android:drawableLeft="@drawable/baseline_person_24"
                     android:drawablePadding="8dp"
@@ -72,7 +72,7 @@
                     android:id="@+id/apellido1"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
-                    android:layout_marginTop="40dp"
+                    android:layout_marginTop="30dp"
                     android:background="@drawable/custom_edittext"
                     android:drawableLeft="@drawable/baseline_person_24"
                     android:drawablePadding="8dp"
@@ -84,7 +84,7 @@
                     android:id="@+id/correo"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
-                    android:layout_marginTop="40dp"
+                    android:layout_marginTop="30dp"
                     android:background="@drawable/custom_edittext"
                     android:drawableLeft="@drawable/baseline_person_24"
                     android:drawablePadding="8dp"
@@ -96,7 +96,7 @@
                     android:id="@+id/password"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="30dp"
                     android:background="@drawable/custom_edittext"
                     android:drawableLeft="@drawable/baseline_lock_24"
                     android:drawablePadding="8dp"
@@ -124,7 +124,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:layout_marginTop="30dp"
-                    android:backgroundTint="@color/lavender"
+                    android:backgroundTint="@color/green"
                     android:text="Registrarse"
                     android:textSize="18sp"
                     app:cornerRadius="20dp" />
@@ -138,10 +138,8 @@
                     android:focusable="true"
                     android:onClick="volverLogin"
                     android:text="Ya tengo cuentica"
-
-
                     android:textAlignment="center"
-                    android:textSize="18sp"></TextView>
+                    android:textSize="18sp"/>
 
 
             </LinearLayout>
